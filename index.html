@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
@@ -13,7 +13,7 @@
     <section id="hero" class="md:flex items-center md:gap-6 lg:gap-8">
       <div class="md:max-w-1/2">
         <div class="size-40 overflow-hidden rounded-full relative my-4">
-          <img src="./profile-pic.jpg" alt="profile-pic" class="absolute" />
+          <img src="./profile-pic.jpg" alt="profile-pic" />
         </div>
         <h2 class="text-lg font-light">
           Hi, i am <span class="font-bold">Juan Camilo</span>
@@ -79,9 +79,224 @@
           Navigate to projects
         </a>
       </div>
-
       <div class="md:w-dvw">
         <img src="./techs.png" alt="techs" />
+      </div>
+    </section>
+    <section id="projects" class="pt-16">
+      <div>
+        <h2 class="text-center text-5xl font-bold">My projects</h2>
+        <p class="my-6 text-slate-400 text-center">
+          Key projects showcasing my ability to translate complex requirements
+          into reliable, well-engineered software
+        </p>
+      </div>
+      <div class="flex flex-wrap gap-7 justify-center">
+        <div class="flex flex-col gap-3 bg-slate-800 w-96 p-3 rounded-lg">
+          <div>
+            <img src="./weather-app.jpg" alt="my weather app" />
+          </div>
+          <h3 class="text-2xl font-bold">Weather App</h3>
+          <a
+            href="https://jyepesa.github.io/weather-app/"
+            class="text-cyan-500"
+            target="_blank"
+            ><span>jyepesa.github.io/weather-app</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-5 inline mx-1"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
+              />
+            </svg>
+          </a>
+          <p class="text-slate-400 text-sm">
+            A performant Weather Dashboard built with Vanilla JavaScript,
+            focusing on direct DOM manipulation and efficient asynchronous API
+            handling. The application demonstrates a logic-driven approach to
+            state management without external dependencies, ensuring a fast and
+            lightweight experience. It highlights my ability to implement clean,
+            well-structured code by managing event cycles, data fetching, and UI
+            updates through pure JavaScript architectural patterns.
+          </p>
+          <div class="flex flex-wrap gap-2">
+            <span class="rounded-full bg-slate-700 text-slate-300 text-sm p-1"
+              >HTML</span
+            ><span class="rounded-full bg-slate-700 text-slate-300 text-sm p-1"
+              >SCSS</span
+            ><span class="rounded-full bg-slate-700 text-slate-300 text-sm p-1"
+              >JavaScript</span
+            ><span class="rounded-full bg-slate-700 text-slate-300 text-sm p-1"
+              >Vite</span
+            ><span class="rounded-full bg-slate-700 text-slate-300 text-sm p-1"
+              >Weather API</span
+            ><span class="rounded-full bg-slate-700 text-slate-300 text-sm p-1"
+              >BEM</span
+            >
+          </div>
+          <a
+            href="https://github.com/jyepesa/weather-app"
+            class="p-3 bg-emerald-600 my-6 rounded-2xl w-fit flex gap-2 items-center"
+            target="_blank"
+            >Look at the code
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-5"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+              />
+            </svg>
+          </a>
+        </div>
+        <div class="flex flex-col gap-3 bg-slate-800 w-96 p-3 rounded-lg">
+          <div>
+            <img src="./pizzeria.png" alt="pizzeria mamma mia" />
+          </div>
+          <h3 class="text-2xl font-bold">Pizzeria page</h3>
+          <a
+            href="https://jyepesa.github.io/italienisches-restaurant/"
+            class="text-cyan-500"
+            target="_blank"
+            ><span>jyepesa.github.io/italienisches-restaurant</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-5 inline mx-1"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
+              />
+            </svg>
+          </a>
+          <p class="text-slate-400 text-sm">
+            A responsive, user-centric website for a restaurant, focused on
+            intuitive navigation and clear information architecture. The project
+            demonstrates a strong grasp of layout design and content
+            organization, ensuring a seamless experience across all devices. I
+            implemented a clean, maintainable structure that highlights the
+            restaurant's menu and identity, combining visual storytelling with
+            functional accessibility to drive user engagement.
+          </p>
+          <div class="flex flex-wrap gap-2">
+            <span class="rounded-full bg-slate-700 text-slate-300 text-sm p-1"
+              >HTML</span
+            ><span class="rounded-full bg-slate-700 text-slate-300 text-sm p-1"
+              >CSS</span
+            ><span class="rounded-full bg-slate-700 text-slate-300 text-sm p-1"
+              >Responsive design</span
+            >
+          </div>
+          <a
+            href="https://github.com/jyepesa/italienisches-restaurant"
+            class="p-3 bg-emerald-600 my-6 rounded-2xl w-fit flex gap-2 items-center"
+            target="_blank"
+            >Look at the code
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-5"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+              />
+            </svg>
+          </a>
+        </div>
+        <div class="flex flex-col gap-3 bg-slate-800 w-96 p-3 rounded-lg">
+          <div>
+            <img src="./user-data-app.png" alt="user data app" />
+          </div>
+          <h3 class="text-2xl font-bold">User data App</h3>
+          <a
+            href="https://jyepesa.github.io/user-data-app/#/overview"
+            class="text-cyan-500"
+            target="_blank"
+            ><span>jyepesa.github.io/user-data-app</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-5 inline mx-1"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
+              />
+            </svg>
+          </a>
+          <p class="text-slate-400 text-sm">
+            A robust User Management System built with React and TypeScript,
+            designed for efficient data administration and real-time
+            interaction. The application utilizes a centralized state management
+            architecture and strict typing to ensure high reliability and
+            scalability. Key features include dynamic data rendering,
+            comprehensive CRUD functionality, and a seamless SPA experience,
+            demonstrating a professional approach to building maintainable and
+            user-focused web interfaces.
+          </p>
+          <div class="flex flex-wrap gap-2">
+            <span class="rounded-full bg-slate-700 text-slate-300 text-sm p-1"
+              >React</span
+            ><span class="rounded-full bg-slate-700 text-slate-300 text-sm p-1"
+              >SCSS</span
+            ><span class="rounded-full bg-slate-700 text-slate-300 text-sm p-1"
+              >TypeScript</span
+            ><span class="rounded-full bg-slate-700 text-slate-300 text-sm p-1"
+              >Vite</span
+            ><span class="rounded-full bg-slate-700 text-slate-300 text-sm p-1"
+              >React Routing</span
+            ><span class="rounded-full bg-slate-700 text-slate-300 text-sm p-1"
+              >Context API</span
+            >
+          </div>
+          <a
+            href="https://github.com/jyepesa/user-data-app"
+            class="p-3 bg-emerald-600 my-6 rounded-2xl w-fit flex gap-2 items-center"
+            target="_blank"
+            >Look at the code
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-5"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+              />
+            </svg>
+          </a>
+        </div>
       </div>
     </section>
     <script type="module" src="/src/main.js"></script>
